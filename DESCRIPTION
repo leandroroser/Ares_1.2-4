@@ -9,8 +9,8 @@ Maintainer: Emiel van Loon <vanloon@uva.nl>
 Description: Generates an allelic richness accumulation curve. This
         curve shows the expected number of unique alleles in a
         population when taking a sample of individuals. The function
-        aresCalc takes a binary data matrix as input, showing the
-        presence of alleles per individual, and gives an accumulation
+        aresCalc takes an abundance data matrix as input, showing the
+        abundance of each alleles in the individuals, and gives an accumulation
         curve (mean with 95\% confidence bounds) back. The function
         aresPlot can be used to plot the output from aresCalc.
 LazyLoad: yes
