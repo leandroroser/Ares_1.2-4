@@ -8,9 +8,9 @@ aresCalc(aresdata, pop = NULL, bootsize = NULL, maxsize = NULL)
 }
 \arguments{
 \item{aresdata}{An object of class ARES obtained with
-\code{\link[ARES]{read.genepop}}, or a
-binary data matrix with columns representing different
-individuals and rows representing different alleles}
+\code{\link[ARES]{read.genepop}}, or an
+abundance data matrix with columns representing different
+individuals and rows representing different alleles, and cells with values of abundance}
 
 \item{pop}{population number, when aresdata is of class ARES}
 
