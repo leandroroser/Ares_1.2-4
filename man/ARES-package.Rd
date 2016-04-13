@@ -10,7 +10,7 @@ Allelic richness estimation, with extrapolation beyond the sample size
   Allows to easily generates and plot an allelic richness accumulation curve. 
   This curve shows the expected number of unique alleles in a population when 
   taking a sample of individuals, ranging from one to \code{maxsize} individuals. 
-  It takes a binary data matrix as input, showing the presence of alleles per 
+  It takes a data matrix with abundances of individuals x alleles as input 
   individual, and gives an accumulation curve (mean with 95\% confidence bounds) 
   back. The total number of individuals present in the input data can be smaller 
   then \code{maxsize}.
